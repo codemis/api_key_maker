@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email       = ["johnathan@still-water.com"]
   s.homepage    = "https://github.com/codemis/api_key_maker"
   s.summary     = %q{Generates a random unique api key string}
-  s.description = %q{Using SHA1 encryption and the current time, this gem generates a random string that is useful for API keys.  The length of the string can be set as an attribute up to 39 characters in length.}
+  s.description = %q{Using SHA1 encryption and the current time, this gem generates a random string that is useful for API keys.}
 
   s.rubyforge_project = "api_key_maker"
 
