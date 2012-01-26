@@ -1,4 +1,5 @@
 require "api_key_maker/version"
+require "api_key_maker/model_additions"
 require "digest/sha1"
 
 module ApiKeyMaker
