@@ -1,4 +1,4 @@
-# API Key Maker
+# API Key Maker [![Build Status](https://secure.travis-ci.org/codemis/api_key_maker.png)](http://travis-ci.org/codemis/api_key_maker)
 
 Using SHA1 encryption and the current time, this gem generates a random string that is useful for API keys.  The length of the string can be set as an attribute up to 39 characters in length.  This is my attempt at creating a gem.
 
