@@ -23,7 +23,6 @@ If you want an attribute of a model to default to an api key, then just add the 
 
 ```ruby
 class ApiAccess < ActiveRecord::Base
-  attr_accessor :api_token, :api_special_token
   make_api_key :api_token, 13
 end
 ```
