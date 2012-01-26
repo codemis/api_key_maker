@@ -21,7 +21,10 @@ The first parameter tells what length you want the key to be.  It defaults to 10
 
 If you want an attribute of a model to default to an api_key, then just add the following in your model:
 ```ruby
-make_api_key :api_token, 13
+class ApiAccess < ActiveRecord::Base
+  attr_accessor :api_token, :api_special_token
+  make_api_key :api_token, 13
+end
 ```
 
 ## Development
