@@ -1,5 +1,6 @@
 require "api_key_maker/version"
 require "api_key_maker/model_additions"
+require "api_key_maker/controller_additions"
 require "api_key_maker/railtie" if defined? Rails
 require "digest/sha1"
 
