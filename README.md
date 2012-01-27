@@ -12,10 +12,10 @@ gem "api_key_maker"
 **Requires Ruby 1.9.2 or later.**
 
 ## Usage
-Whenever you need to generate a key, just call the following method:
+If you want to generate a key in a controller, just call the following method:
 
 ```ruby
-ApiKeyMaker.make_api_key(10)
+make_api_key(10)
 ```
 The first parameter tells what length you want the key to be.  It defaults to 10 characters, but can go up to 39 characters in length.
 
